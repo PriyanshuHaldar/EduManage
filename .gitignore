@@ -1,0 +1,49 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node / Dependencies / Build output
+node_modules/
+dist/
+build/
+.next/
+
+# Python / Java backend artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+target/
+*.jar
+
+# Terraform
+*.tfstate
+*.tfstate.*
+crash.log
+.terraform/
+.terraform.lock.hcl
+
+# Puppet
+.librarian/
+.tmp/
+pkg/
+
